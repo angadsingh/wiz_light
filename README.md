@@ -1,7 +1,8 @@
 # wiz_light
 A Home assistant integration for Phillips WiZ Light bulbs
 
-This is a fork of https://github.com/sbidy/wiz_light/ and fixes several issues with the component:
+This is a fork of https://github.com/sbidy/wiz_light/ and fixes several issues with the component. Please note that once these two PRs are merged you should use the original component as I do not aim at maintaining this one: https://github.com/sbidy/wiz_light/pull/9
+https://github.com/sbidy/pywizlight/pull/2
 
 Bug fixes:
  - Fixes https://github.com/sbidy/wiz_light/issues/6: make the whole component truly async using non-blocking UDP
